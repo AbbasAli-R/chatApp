@@ -77,7 +77,7 @@ const ProfilePage = () => {
 
           <button
             type="submit"
-            className="bg-gradient-to-r from-purple-400 to-violet-600 text-white p-2 rounded-full text-lg cursor-pointer"
+            className="bg-gradient-to-r from-indigo-500 to-blue-500 text-white p-2 rounded-full text-lg cursor-pointer"
           >
             Save
           </button>

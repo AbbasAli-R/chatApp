@@ -88,7 +88,7 @@ const ChatContainer = () => {
               />
             ) : ( 
               <p
-                className={`p-2 max-w-[200px] md:text-sm font-light rounded-lg mb-8 break-all bg-violet-500/30 text-white ${
+                className={`p-2 max-w-[200px] md:text-sm font-light rounded-lg mb-8 break-all bg-[#0046FF] text-white ${
                   msg.senderId === authUser._id
                     ? "rounded-br-none"
                     : "rounded-bl-none"
@@ -141,7 +141,7 @@ const ChatContainer = () => {
             />
           </label>
         </div>
-        <img  onClick={handleSendMessage} src={assets.send_button} alt="" className="w-7 cursor-pointer" />
+        <img  onClick={handleSendMessage} src={assets.send_button} alt="" className="w-8 cursor-pointer" />
       </div>
     </div>
   ) : (
